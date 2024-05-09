@@ -1,0 +1,17 @@
+#gender-regis {
+  font-weight: 500;
+  margin-left: 30px;
+}
+#div-regis {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 30px;
+}
+#radio-p {
+  font-size: medium;
+  padding-top: 10px;
+}
+.radio-color {
+  accent-color: rgb(52, 152, 219);
+}

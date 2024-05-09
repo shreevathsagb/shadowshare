@@ -1,0 +1,39 @@
+.share-span {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 260px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+#cancel {
+  color: red;
+  text-align: center;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.share-button {
+  width: 260px;
+  height: 30px;
+  left: 3px;
+  margin-bottom: 5px;
+  font-size: xx-large;
+  font-weight: 800;
+}
+.share-icon {
+  width: auto;
+  height: 30px;
+  bottom: 0%;
+}
+.share-head {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}

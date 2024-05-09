@@ -1,0 +1,36 @@
+#main-comment {
+  background-color: #E4E4D0;
+  padding: 20px;
+}
+#textarea-comment {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  padding: 5px;
+}
+#add-comment {
+  border: none;
+  padding: 2px;
+  height: 50px;
+  width: 20px;
+  font-size: larger;
+  background-color: #3498db00;
+  color: #3498db;
+  font-size: 12px;
+  margin-top: 3px;
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+.comment-icons {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: none;
+}
+.delete-btn{
+  font-size: medium;
+  cursor: pointer;
+}

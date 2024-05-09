@@ -1,0 +1,21 @@
+#vp-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    border-radius: 25px;
+    position: inherit;
+}
+#image-vp{
+    margin:30px;
+    width: 240px;
+    box-shadow: 0  0 25px  black ;
+}
+.div-vp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin-right: 80px;
+    margin-top: 20px;
+}
